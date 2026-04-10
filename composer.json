@@ -1,0 +1,51 @@
+{
+    "name": "votre-pseudo/cafe-blog",
+    "description": "A plug-and-play Laravel blog package dedicated to coffee culture.",
+    "keywords": ["laravel", "blog", "coffee", "cafe", "package", "specialty"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Votre Nom",
+            "email": "votre@email.com",
+            "homepage": "https://github.com/votre-pseudo"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0",
+        "illuminate/database": "^11.0",
+        "illuminate/routing": "^11.0",
+        "illuminate/view": "^11.0",
+        "illuminate/auth": "^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^11.0",
+        "fakerphp/faker": "^1.23",
+        "laravel/pint": "^1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "VotrePseudo\\CafeBlog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VotrePseudo\\CafeBlog\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VotrePseudo\\CafeBlog\\Providers\\CafeBlogServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
