@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-git clone https://github.com/votre-pseudo/cafe-blog.git
+git clone https://github.com/Leo-76/cafe-blog.git
 cd cafe-blog
 composer install
 ```
